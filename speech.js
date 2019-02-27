@@ -74,7 +74,7 @@ var cycle = async function() {
     await say("I'm Batman");
     return;
   }
-  if (temp=tex.split('say in French')[1]) {
+  if (temp=tex.split('translate to French')[1]) {
     console.log(temp);
     temp = await translate(temp,'en','fr');
     console.log(temp);
@@ -86,9 +86,9 @@ var cycle = async function() {
 }
 
 var main = async function() {
-  var recog = new document.webkitSpeechRecognition();
-  recog.start();
-  recog.stop();
+  //var recog = new document.webkitSpeechRecognition();
+  //recog.start();
+  //recog.stop();
   console.log('started');
   yourTalk.innerText='Please wait';
   await say('Hello, my name is Jarvis.');
