@@ -92,11 +92,11 @@ var main = async function() {
   console.log('started');
   yourTalk.innerText='Please wait';
   await say('Hello, my name is Jarvis.');
-  yourTalk.innerText='';
+  yourTalk.innerText='Waiting for text';
   while (true) {
       if (await cycle()) {
           break;
       }
-      yourTalk.innerText='';
+      yourTalk.innerText='Waiting for text';
   }
 }
