@@ -13,12 +13,18 @@
     <script src="eliza.js"></script>
   </head>  
   <body>
-    <h1>Hi there!</h1>
-    
-    <p>
+    <button id="startButton">Start</button>
+    <span id="yourTalk"></span>
+    <p style="bottom:0; position:absolute">
       I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
     </p>
-
+    <script src="speech.js"></script>
+    <script>
+        startButton.addEventListener('click',()=>{
+            startButton.hidden=true;
+            main();
+        });
+    </script>
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
