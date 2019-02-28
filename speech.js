@@ -81,6 +81,11 @@ var cycle = async function() {
     await say(temp,speechSynthesis.getVoices().filter(i=>i.lang=='fr-FR')[0]);
     return;
   }
+  if (tex == 'do you dream') {
+    // figure out a better response
+    await say('Of electric sheep.');
+    return;
+  }
   await sleep(1000+Math.random()*1000);
   await say(listeneliza(tex));
 }
