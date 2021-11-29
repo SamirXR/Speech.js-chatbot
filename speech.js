@@ -48,7 +48,7 @@ var cycle = async function() {
   yourTalk.style.color='black';
   var temp;
   if (tex == 'stop') {
-    await say('alright');
+    await say('alright,have a good day');
     startButton.hidden=false;
     yourTalk.innerText='';
     return true;
@@ -96,7 +96,7 @@ var main = async function() {
   //recog.stop();
   console.log('started');
   yourTalk.innerText='Please wait';
-  await say('Hello, my name is Jarvis.');
+  await say('Hello, my name is XR7.');
   yourTalk.innerText='Waiting for text';
   while (true) {
       if (await cycle()) {
