@@ -308,7 +308,7 @@ keyword[35]=new key( "NO KEY FOUND", 	106, 112);
 keyword[36]=new key( "REPEAT INPUT", 	113, 116);
 
 
-response[  0]="ELIZA - Javascript Version by George Dunlop ( george@peccavi.com )"
+response[  0]="XR7)"
 response[  1]="Don't you believe that I can<*";
 response[  2]="Perhaps you would like to be able to<*";
 response[  3]="You want me to be able to<*";
@@ -424,6 +424,7 @@ response[112]="That is quite interesting.";
 response[113]="Why did you repeat yourself?";
 response[114]="Do you expect a different answer by repeating yourself?";
 response[115]="Come, come, elucidate your thoughts.";
+response[116]="Haha,you got nice voice";
 
 
 
